@@ -1,4 +1,4 @@
-/* === RESET & BASE === */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     padding: 20px;
 }
 
-/* === HEADER === */
+
 header {
     background-color: #4b3109;
     color: #fff;
@@ -30,7 +30,7 @@ header p {
     font-size: 18px;
 }
 
-/* === SECTIONS === */
+
 section {
     margin: 40px 0;
     padding: 20px;
@@ -52,7 +52,7 @@ h3 {
     font-size: 24px;
 }
 
-/* === SKILLS LIST === */
+
 ul {
     list-style-type: square;
     padding-left: 20px;
@@ -62,7 +62,7 @@ li {
     margin-bottom: 8px;
 }
 
-/* === CONTACT === */
+
 #contact a {
     color: #007acc;
     text-decoration: none;
@@ -72,7 +72,7 @@ li {
     text-decoration: underline;
 }
 
-/* === FOOTER === */
+
 footer {
     text-align: center;
     margin-top: 60px;
@@ -81,7 +81,7 @@ footer {
     color: #777;
 }
 
-/* === PROJECTS SECTION WITH BACKGROUND IMAGE === */
+
 #projects {
     background: url('pictures/pexels-pixabay-164938.jpg') no-repeat center center/cover;
     padding: 60px 30px;
@@ -98,7 +98,7 @@ footer {
 }
 
 #projects div {
-    background-color: rgba(0, 0, 0, 0.6); /* Overlay to make text readable */
+    background-color: rgba(0, 0, 0, 0.6); 
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
@@ -114,7 +114,7 @@ footer {
     margin-bottom: 10px;
 }
 
-/* === BUTTON (OPTIONAL) === */
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -129,7 +129,7 @@ footer {
     background-color: #005f99;
 }
 
-/* === RESPONSIVE === */
+
 @media (max-width: 768px) {
     body {
         padding: 10px;
